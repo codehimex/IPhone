@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+nav img{
+    width: 58px;
+}
+nav ul{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    transition: 0.6s;
+}
+ul li a:hover{
+    color: #0071e3;
+    transition: 0.6s;
+}
+.btns .b1{
+    background-color: #0071e3;
+    border: #0071e3 2px solid;
+    padding: 8px 14px;
+    border-radius: 1rem;
+    color: white;
+    margin: 0 12px;
+}
+.btns .b2{
+    background-color: white;
+    border: #0071e3 2px solid;
+    padding: 8px 14px;
+    border-radius: 1rem;
+    color: #0071e3;
+    margin: 0 12px;
+}
+#Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+}
+#Home .image img{
+    width: 450px;
+}
+#Home .text{
+    display: flex;
+    align-items: center;
+}
+#Home .icons{
+    font-size: 23px;
+    line-height: 50px;
+}
+.kok{
+    background-color: #a4a1a142;
+    padding: 8px;
+    border-radius: 100%;
+    margin-right: 32px;
+    transition: 0.3s;
+}
+#Home .txt{
+    line-height: 45px;
+}
+#Home .txt h1{
+    font-size: 48px;
+}
+#Home .txt button{
+    background-color: #0071e3;
+    border: #0071e3 2px solid;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 0.8rem;
+}
+.kok:hover{
+    background-color: #a4a1a181;
+    transition: 0.3s;
+}
+#About{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 80px 0;
+    padding-bottom: 80px;
+}
+#About h1{
+    text-align: center;
+    margin: 28px 0;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+#About .kol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#About .image0 img{
+    width: 200px;
+    padding-left: 150px;
+    padding-right: 350px;
+}
+#About .text{
+    padding-right: 150px;
+}
+#About .text h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+#About button{
+    background-color: black;
+    border: white 2px solid;
+    border-radius: 0.8rem;
+    padding: 8px 16px;
+    margin-top: 20px;
+    color: white;
+    transition: 0.6s;
+}
+#About button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f1f0f0;
+    border-radius: 2rem;
+}
+#Products{
+    margin: 80px 0;
+}
+#Products h3{
+    text-align: center;
+    margin: 28px 0;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+#Products .pop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.pop .kl{
+    text-align: center;
+    border: #0071e3 2px solid;
+    border-radius: 12px;
+    margin: 0 20px;
+    padding: 20px 30px;
+}
+.pop .kl img{
+    width: 120px;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.pop .kl img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.pop .kl h1{
+    margin: 20px 0;
+}
+.pop .kl button{
+    margin: 20px 0;
+    padding: 8px 12px;
+    background-color: #0071e3;
+    color: white;
+    border: #0071e3 2px solid;
+    border-radius: 8px;
+}
+.up{
+    position: fixed;
+    bottom: 10px;
+    right: -40px;
+    width: 40px;
+}
+.up.show{
+    right: 10px;
+}
